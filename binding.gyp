@@ -17,7 +17,7 @@
             "include_dirs": [
                 "src",
                 "src/contrib/epee/include",
-                "/usr/local/opt/boost/include",
+                "/usr/include/boost",
                 "<!(node -e \"require('nan')\")",
             ],
             "link_settings": {
